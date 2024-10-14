@@ -14,7 +14,7 @@ jobs:
           submodules: recursive
 
       - name: Build docs
-        uses: htfab/tt-gds-action/docs@tt09-dev
+        uses: htfab/tt-gds-action/docs@tt09-dev-x
         with:
           tools-repo: htfab/tt-support-tools
-          tools-ref: tt09-dev
+          tools-ref: tt09-dev-x
