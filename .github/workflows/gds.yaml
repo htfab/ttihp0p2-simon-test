@@ -14,7 +14,7 @@ jobs:
           submodules: recursive
 
       - name: Build GDS
-        uses: htfab/tt-gds-action/orfs@tt09-dev
+        uses: htfab/tt-gds-action/orfs@tt09-or
         with:
           tools-repo: htfab/tt-support-tools
           tools-ref: tt09-dev
@@ -45,4 +45,4 @@ jobs:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
     steps:
-      - uses: htfab/tt-gds-action/viewer@tt09-dev
+      - uses: htfab/tt-gds-action/viewer@tt09-or
